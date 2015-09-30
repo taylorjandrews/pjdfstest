@@ -1,0 +1,56 @@
+mkdir
+    00.t    -   Dropbox client doesn't support different file permissions.
+                Dropbox client doesn't support groups or users.
+                The above sections have been removed from the test.
+                Test passes.
+    01.t    -
+    02.t    -   
+    03.t    -   Test passes.
+    04.t    -   Test passes.
+    05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    06.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    07.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    08.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    09.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    10.t    -
+    11.t    -   Test passes. //Mysterious
+    12.t    -   Test passes. //Mysterious
+
+open
+    00.t    -   Dropbox client doesn't support different file permissions.
+                Dropbox client doesn't support groups or users.
+                The above sections have been removed from the test.
+                Dropbox client creates files with permissions 0664.
+                Test passes.
+    01.t    -
+    02.t    -    
+    03.t    -   Test passes.
+    04.t    -   Test passes.
+    05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    06.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    07.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    08.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    09.t    -   Test passes. //Mysterious
+    10.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    11.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    12.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    13.t    -   Test passes.
+    14.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    15.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    16.t    -   Dropbox client doesn't support symbolic links, so an error will not be thrown.
+    17.t    -   Dropbox client doesn't support fifo files.
+    18.t    -   Test passes. //Mysterious
+    19.t    -   Test passes. //Mysterious
+    20.t    -   Test passes. //Mysterious
+    21.t    -   Test passes. //Mysterious
+    22.t    -  
+    23.t    -   Test passes.
+    24.t    -   Dropbox client doesn't support sockets?
+
+rename
+
+rmdir
+
+truncate
+
+unlink
