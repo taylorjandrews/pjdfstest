@@ -1,3 +1,5 @@
+#time stamping should be supported to fix a lot of errors in t00's
+
 mkdir
     00.t    -   Dropbox client doesn't support different file permissions.
                 Dropbox client doesn't support groups or users.
@@ -20,7 +22,7 @@ open
     00.t    -   Dropbox client doesn't support different file permissions.
                 Dropbox client doesn't support groups or users.
                 The above sections have been removed from the test.
-                Dropbox client creates files with permissions 0664.
+                Dropbox client creates files with permissions 0664, modified test.
                 Test passes.
     01.t    -
     02.t    -    
@@ -48,6 +50,31 @@ open
     24.t    -   Dropbox client doesn't support sockets?
 
 rename
+    00.t    -   Dropbox client doesn't support symlinks.
+                Dropbox client doesn't support links.
+                The above sections have been removed from the test.
+                Test passes.
+    01.t    -
+    02.t    -   Test passes 
+    03.t    -   Test passes.
+    04.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    06.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    07.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    08.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    09.t    -   Dropbox client doesn't support permissions, so EACCES or EPERM will not be thrown.
+    10.t    -   Dropbox client doesn't support permissions, so EACCES or EPERM will not be thrown.
+    11.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    12.t    -   
+    13.t    -   
+    14.t    -   
+    15.t    -   Test passes. //Mysterious
+    16.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    17.t    -   Test passes. //Mysterious  
+    18.t    -   Test passes. //Mysterious   
+    19.t    -   Test passes.  
+    20.t    -   
+    21.t    -   Dropbox client doesn't support permissions, so write access is always granted.
 
 rmdir
 
