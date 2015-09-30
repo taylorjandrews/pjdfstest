@@ -55,7 +55,7 @@ rename
                 The above sections have been removed from the test.
                 Test passes.
     01.t    -
-    02.t    -   Test passes 
+    02.t    -   Test passes. 
     03.t    -   Test passes.
     04.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
     05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
@@ -76,8 +76,53 @@ rename
     20.t    -   
     21.t    -   Dropbox client doesn't support permissions, so write access is always granted.
 
-rmdir
+rmdir 
+    00.t    -   Test passes.
+    01.t    -
+    02.t    -    
+    03.t    -   Test passes.
+    04.t    -   Test passes.
+    05.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    06.t    -   
+    07.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    08.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    09.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    10.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    11.t    -   Dropbox client doesn't support permissions, so EACCES or EPERM will not be thrown.
+    12.t    -   
+    13.t    -   Test passes.
+    14.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    15.t    -   Test passes. //Mysterious
 
 truncate
+    00.t    -   
+    01.t    -
+    02.t    -    
+    03.t    -   
+    04.t    -   Test passes.
+    05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    06.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    07.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    08.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    09.t    -   Test passes.
+    10.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    11.t    -   Test passes. //Mysterious
+    12.t    -   
+    13.t    -   Test passes.
+    14.t    -   Test passes.
 
 unlink
+    00.t    -   
+    01.t    -
+    02.t    -    
+    03.t    -   Test passes.
+    04.t    -   Test passes.
+    05.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    06.t    -   Dropbox client doesn't support permissions, so EACCES will not be thrown.
+    07.t    -   Dropbox client doesn't support links, so ELOOP will not be thrown.
+    08.t    -   Test passes.
+    09.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    10.t    -   Dropbox client doesn't support permissions, so EPERM will not be thrown.
+    11.t    -   Dropbox client doesn't support permissions, so EACCES or EPERM will not be thrown.
+    12.t    -   Dropbox client doesn't support permissions, so EROFS will not be thrown.
+    13.t    -   Test passes. //Mysterious
